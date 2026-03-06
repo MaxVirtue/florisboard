@@ -21,12 +21,12 @@
     } },
     { "code":   38, "label": "&" },
     { "code":   45, "label": "-", "popup": {
-      "main": { "code":   95, "label": "_" },
+      "main": { "code": 8722, "label": "−" },
       "relevant": [
-        { "code": 8315, "label": "⁻" },
-        { "code": 8212, "label": "—" },
-        { "code": 8211, "label": "–" },
-        { "code":  183, "label": "·" }
+        { "code":  177, "label": "±" },
+        { "code": 8594, "label": "→" },
+        { "code": 8592, "label": "←" },
+        { "code": 8596, "label": "↔" }
       ]
     } },
     { "code":   43, "label": "+", "popup": {
@@ -37,44 +37,46 @@
     } },
     { "$": "layout_direction_selector",
       "ltr": { "code":   40, "label": "(", "popup": {
-        "main": { "code":   60, "label": "<" },
+        "main": { "code":   91, "label": "[" },
         "relevant": [
-          { "code":   91, "label": "[" },
-          { "code":  123, "label": "{" }
+          { "code":  123, "label": "{" },
+          { "code":10216, "label": "⟨" }
         ]
       } },
       "rtl": { "code":   41, "label": "(", "popup": {
-        "main": { "code":   62, "label": "<" },
+        "main": { "code":   93, "label": "[" },
         "relevant": [
-          { "code":   93, "label": "[" },
-          { "code":  125, "label": "{" }
+          { "code":  125, "label": "{" },
+          { "code":10217, "label": "⟨" }
         ]
       } }
     },
     { "$": "layout_direction_selector",
       "ltr": { "code":   41, "label": ")", "popup": {
-        "main": { "code":   62, "label": ">" },
+        "main": { "code":   93, "label": "]" },
         "relevant": [
-          { "code":   93, "label": "]" },
-          { "code":  125, "label": "}" }
+          { "code":  125, "label": "}" },
+          { "code":10217, "label": "⟩" }
         ]
       } },
       "rtl": { "code":   40, "label": ")", "popup": {
-        "main": { "code":   60, "label": ">" },
+        "main": { "code":   91, "label": "]" },
         "relevant": [
-          { "code":   91, "label": "]" },
-          { "code":  123, "label": "}" }
+          { "code":  123, "label": "}" },
+          { "code":10216, "label": "⟩" }
         ]
       } }
     },
-    { "code":   47, "label": "/" }
+    { "code":   47, "label": "/", "popup": {
+      "main": { "code":  247, "label": "÷" }
+    } }
   ],
   [
     { "code":   42, "label": "*", "popup": {
-      "main": { "code": 8224, "label": "†" },
+      "main": { "code":  215, "label": "×" },
       "relevant": [
-        { "code": 9733, "label": "★" },
-        { "code": 8225, "label": "‡" }
+        { "code":  183, "label": "·" },
+        { "code": 8901, "label": "⋅" }
       ]
     } },
     { "code":   34, "label": "\"", "popup": {

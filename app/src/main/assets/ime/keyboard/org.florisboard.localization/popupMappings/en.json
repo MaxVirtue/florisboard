@@ -14,6 +14,7 @@
     },
     "c": {
       "relevant": [
+        { "$": "auto_text_key", "code": 8450, "label": "ℂ" },
         { "$": "auto_text_key", "code":  231, "label": "ç" }
       ]
     },
@@ -28,6 +29,8 @@
     },
     "i": {
       "relevant": [
+        { "$": "auto_text_key", "code": 8747, "label": "∫" },
+        { "$": "auto_text_key", "code": 8748, "label": "∬" },
         { "$": "auto_text_key", "code":  236, "label": "ì" },
         { "$": "auto_text_key", "code":  239, "label": "ï" },
         { "$": "auto_text_key", "code":  237, "label": "í" },
@@ -37,6 +40,7 @@
     },
     "n": {
       "relevant": [
+        { "$": "auto_text_key", "code": 8469, "label": "ℕ" },
         { "$": "auto_text_key", "code":  241, "label": "ñ" },
         { "$": "auto_text_key", "code":  324, "label": "ń" }
       ]
@@ -55,7 +59,35 @@
     },
     "s": {
       "relevant": [
+        { "$": "auto_text_key", "code": 8721, "label": "∑" },
         { "$": "auto_text_key", "code":  223, "label": "ß" }
+      ]
+    },
+    "d": {
+      "relevant": [
+        { "$": "auto_text_key", "code": 8706, "label": "∂" },
+        { "$": "auto_text_key", "code": 8711, "label": "∇" },
+        { "$": "auto_text_key", "code":  916, "label": "Δ" }
+      ]
+    },
+    "p": {
+      "relevant": [
+        { "$": "auto_text_key", "code": 8719, "label": "∏" }
+      ]
+    },
+    "q": {
+      "relevant": [
+        { "$": "auto_text_key", "code": 8474, "label": "ℚ" }
+      ]
+    },
+    "r": {
+      "relevant": [
+        { "$": "auto_text_key", "code": 8477, "label": "ℝ" }
+      ]
+    },
+    "z": {
+      "relevant": [
+        { "$": "auto_text_key", "code": 8484, "label": "ℤ" }
       ]
     },
     "u": {

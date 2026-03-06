@@ -32,16 +32,31 @@
       ]
     } },
     { "code":   55, "label": "7", "type": "numeric" },
-    { "code":   56, "label": "8", "type": "numeric" },
+    { "code":   56, "label": "8", "type": "numeric", "popup": {
+      "main": { "code": 8734, "label": "∞" }
+    } },
     { "code":   57, "label": "9", "type": "numeric" },
     { "code":   -7, "label": "delete", "type": "enter_editing" }
   ],
   [
     { "code": -201, "label": "view_characters", "type": "system_gui" },
-    { "code":   44, "label": "," },
+    { "code":   44, "label": ",", "popup": {
+      "main": { "code": 8712, "label": "∈" },
+      "relevant": [
+        { "code": 8713, "label": "∉" }
+      ]
+    } },
     { "code": -202, "label": "view_symbols", "type": "system_gui" },
     { "code":   48, "label": "0", "type": "numeric" },
-    { "code":   61, "label": "=" },
+    { "code":   61, "label": "=", "popup": {
+      "main": { "code": 8800, "label": "≠" },
+      "relevant": [
+        { "code": 8804, "label": "≤" },
+        { "code": 8805, "label": "≥" },
+        { "code": 8776, "label": "≈" },
+        { "code": 8801, "label": "≡" }
+      ]
+    } },
     { "code":   46, "label": "." },
     { "code":   10, "label": "enter", "groupId": 3, "type": "enter_editing" }
   ]

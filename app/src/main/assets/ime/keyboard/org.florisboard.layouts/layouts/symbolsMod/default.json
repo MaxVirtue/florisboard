@@ -6,7 +6,12 @@
   ],
   [
     { "code": -201, "label": "view_characters", "type": "system_gui" },
-    { "code":   44, "label": "," },
+    { "code":   44, "label": ",", "popup": {
+      "main": { "code": 8712, "label": "∈" },
+      "relevant": [
+        { "code": 8713, "label": "∉" }
+      ]
+    } },
     { "code": -205, "label": "view_numeric_advanced", "type": "system_gui" },
     { "code":   32, "label": "space" },
     { "code":   46, "label": ".", "popup": {
